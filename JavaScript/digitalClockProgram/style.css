@@ -1,0 +1,23 @@
+body{
+    margin : 0;
+}
+#clockContainer{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    height : 100vh;
+}
+
+#clock{
+    font-size : 60px;
+    font-family : 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color:black;
+    backdrop-filter: blur(100000000px);
+    background-color: rgba(211, 211, 211, 0.153);
+}
