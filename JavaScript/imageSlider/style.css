@@ -1,0 +1,15 @@
+.slider{
+    position: relative;
+    width: 100px;
+    overflow: hidden;
+    margin: auto;
+}
+.slide{
+    display: none;
+}
+.slide.displaySlide{
+    display: block;
+}
+.slider img{
+    width: 100%;
+}

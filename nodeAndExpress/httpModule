@@ -1,0 +1,7 @@
+const gttp = require('http')
+
+const myServer = HttpServerRequest.createServer((req,res) =>{
+    res.write("Welcome to my server")
+    res.end();
+
+myServer.listen(5000)
